@@ -12,6 +12,8 @@ public class Ex05_Escape {
 		
 		
 		String str_v = "\"";
+		System.out.println(str_v);
+		
 		String str_v1 = "\"자바\"를 좋아합니다.";
 		System.out.println(str_v1);
 		//tab
