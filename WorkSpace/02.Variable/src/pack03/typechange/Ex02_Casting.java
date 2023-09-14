@@ -12,6 +12,7 @@ public class Ex02_Casting {
 		double sum = 3.5F + 12;
 		System.out.println(sum);
 		
+		
 		//2진수로는 소수점을 정확하게 표현을 못함. 근사치를 계속해서 계산.
 		//BigDecimal(x) 
 		//데이터의 정확한 계산은-> Database

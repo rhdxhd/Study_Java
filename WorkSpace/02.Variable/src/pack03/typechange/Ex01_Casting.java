@@ -13,6 +13,13 @@ public class Ex01_Casting {
 		short short_v = byte_v;
 		int int_v = short_v;
 		long long_v = int_v;
+		
+		
+				double a=3.14;
+				int b=5;
+				System.out.println(b+(int)a);
+				
+				
 		//==-----------자동 형변환 끝--------------------------==//
 		
 		//2.강제 타입 변환(명시적 형변환 , DownCasting)
