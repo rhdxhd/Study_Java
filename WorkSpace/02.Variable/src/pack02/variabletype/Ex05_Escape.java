@@ -8,7 +8,7 @@ public class Ex05_Escape {
 		
 		//char char_v = '"';
 		//System.out.println(char_v);
-		//너무 길고 힘듬.
+		//위 두 과정이 너무 길고 힘듬.
 		
 		
 		String str_v = "\"";
