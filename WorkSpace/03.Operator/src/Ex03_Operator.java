@@ -23,14 +23,6 @@ public class Ex03_Operator {
 		
 		System.out.println(" 증감식 종료 후 num1: " + num1); // ★
 		System.out.println(" 증감식 종료 후 num2: " + num2); // ☆
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
