@@ -12,10 +12,10 @@ public static void main(String[] args) {
 	System.out.println(result2);
 	
 		
-	System.out.println(" (+number) result1 : " +result1); // 플러스 넘버를 했을때 result1값은 : -100이다.
+	System.out.println(" (+number) result1 : " + result1); // 플러스 넘버를 했을때 result1값은 : -100이다.
 	System.out.println(" (+number) number * 1 = number(-100)");
 						//플러스 넘버를 했을때, 넘버에 *1을 곱한 값이 되고, 그 결과 넘버는 -100이 된다 
-	System.out.println(" (-number) result2 : " +result2); // 마이너스 넘버를 했을때 result2값은 : 100이다.
+	System.out.println(" (-number) result2 : " + result2); // 마이너스 넘버를 했을때 result2값은 : 100이다.
 	System.out.println(" (-number) number * -1 = number(100)");
 						//마이너스 넘버를 했을때, 넘버에 -1을 곱한 값이 되고, 그 결과 넘버는 100이 된다
 	
