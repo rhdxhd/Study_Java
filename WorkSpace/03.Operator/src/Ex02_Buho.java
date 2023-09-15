@@ -8,6 +8,10 @@ public static void main(String[] args) {
 	int result2 = -number;
 	// result1의 값?
 	// result2의 값?
+	System.out.println(result1);
+	System.out.println(result2);
+	
+	
 	
 	System.out.println(" (+number) result1 : " +result1);
 	System.out.println(" (+number) number * 1 = number(-100)");

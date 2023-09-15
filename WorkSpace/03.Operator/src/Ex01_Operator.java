@@ -12,10 +12,12 @@ public class Ex01_Operator {
 		System.out.println("num1 - num2 =" + ( num1 - num2)); //syso(값하나)
 		System.out.println("num1 * num2 =" + ( num1 * num2)); //syso(값하나)
 		System.out.println("num1 / num2 =" + ( num1 / num2)); //syso(값하나)
-		System.out.println("num1 % num2 =" + ( num1 % num2)); //syso(값하나)
-		System.out.println("2로 나누고 나머지가 0이면 짝수" + (num1%2)); 
-		System.out.println("2로 나누고 나머지가 1이면 홀수" + (num1%2)); 
 		
-	
+		System.out.println("2로 나누고 나머지가 0이면 짝수" + (num1%2)); 
+		System.out.println("2로 나누고 나머지가 1이면 홀수" + (num2%2)); 
+		
+		//짝수 뒤에 0은 값이 0이 나오는지 확인한 것.
+		//홀수 뒤에 1은 값이 1이 나오는지 확인한 것.
+		
 }
 }
