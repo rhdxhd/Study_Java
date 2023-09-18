@@ -7,6 +7,13 @@ public class Test02_IfElse {
 		//조건. if와 else를 사용할것
 			
 			int number = 10;
+			
+			if( number%2 == 0) {
+				System.out.println("짝수");
+			}else { 
+				System.out.println("홀수");
+			}
+			
 		}
 
 }
