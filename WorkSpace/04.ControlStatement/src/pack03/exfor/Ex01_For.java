@@ -16,26 +16,20 @@ public class Ex01_For {
 		// F8(Resume) 다음 브레이킹 포인트로 이동
 		//(없으면 프로그램 계속 돈다.)
 		
-		 
 		for(int i=0; i<10; i++) { //증감식 빼먹으면 안됨. (빼먹으면 무한루프 걸림. 콘솔에서 중지버튼 눌러서 중지시킬 수 있음)
 			System.out.println(i + " 반복 ");
 		}
 		
-				
-		
+					
 		//1. for문 만 이용해서 1~10까지의 수 중 짝수만 출력
-		for(int i=0; i<=10; i+=2) { 
+		for(int i=2; i<=10; i+=2) { 
 			System.out.println(i);
-		
 		}
+		
 		
 		//2. for문 만 이용해서 1~10까지의 수 중 홀수만 출력
-		for(int i=1; i<10; i+=2) {
+		for(int i=1; i<=10; i+=2) {
 			System.out.println(i);
-		}
-		
-		
-		
+		}	
 	}// main
-
 }
