@@ -3,7 +3,6 @@ package pack02.exswitch;
 public class Test_Switch {
 	public static void main(String[] args) {
 		// 스위치문은 값을 가지고만 어떤 조건 분기가 가능하다. "break"를 넣어줘야지만. 끊김
-		
 		//  100 : A학점
 		//100~90 : A학점
 		//89~90 : B학점

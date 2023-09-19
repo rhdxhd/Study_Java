@@ -19,11 +19,23 @@ public class Ex01_Switch_Case {
 		case 1:
 			System.out.println("홀수");
 			break;
-			
+		}	
 						
 			
 			// 3의 배수인지도 같이 판단이 가능할까? 가능하다면 풀어보기. (삼항연사자 사용하지말고 풀어보기)
 		
+			
+			switch(number%3){
+			case 0:
+				System.out.println("3배수");
+				break;
+			case 1:
+				System.out.println("3배수x");
+				break;
+			
+			
+			
+			
 			
 			
 			
