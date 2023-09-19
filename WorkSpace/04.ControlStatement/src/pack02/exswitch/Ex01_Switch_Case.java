@@ -10,7 +10,7 @@ public class Ex01_Switch_Case {
 		// switch ( 기준값 ) != if(조건식)   //   (참고 : if는 조건식)
 		// case 값 : 
 		// 값이 case (값)과 같은 경우 실행
-		// break; <= 종료시킴.
+		// break; <= 종료시킴. (제어문의 탈출. 가장 가까운 제어문의 중괄호 블럭킹 빠져나감. break를 까먹으면 아래 조건도 계속 실행시킴)
 		int number = 10;
 		switch(number%2) { // 1은 홀수, 0은 짝수
 		case 0:
@@ -19,6 +19,14 @@ public class Ex01_Switch_Case {
 		case 1:
 			System.out.println("홀수");
 			break;
+			
+						
+			
+			// 3의 배수인지도 같이 판단이 가능할까? 가능하다면 풀어보기. (삼항연사자 사용하지말고 풀어보기)
+		
+			
+			
+			
 		} // switch지역
 	}
 }
