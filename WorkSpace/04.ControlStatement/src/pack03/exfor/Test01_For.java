@@ -14,8 +14,7 @@ public class Test01_For {
 		//각각을 따로 출력하기.
 		// 홀수의합 : ?
 		// 짝수의합 : ?
-		// 총합 : ?
-		
+		// 총합 : ?		
 		
 //		int i = 0; // i에 1~9까지의 총합을 저장하고 출력하기.
 //		i = i+1; //0+1
@@ -27,15 +26,12 @@ public class Test01_For {
 //		i = i+7;
 //		i = i+8;
 //		i = i+9;
-		
-		
-		
+			
 		int sum = 0;
 		for(int i = 0; i <=9; i++) {
 			sum = sum + i; //sum+=i;
 		}
 		System.out.println(sum);
-		
 		
 		
 		
@@ -50,11 +46,7 @@ public class Test01_For {
 		}
 		System.out.println("홀수의합(1~9) : " + oddSum);
 		System.out.println("홀수의합(1~9) : " + evenSum);
-		System.out.println(sum);		
-		
-	
-			
-		
+		System.out.println(sum);				
 		
 	}
 }

@@ -6,22 +6,17 @@ public class Ex03_ForFor {
 		//for문이 중첩되면 반복 횟수는 두 for문의 반복횟수 x
 		// 10번 반복하는 for문, 5번 반복하는 for문
 		// 10*5 =50; 50번 반복함
-		
-		
+			
 		// for() {
 		//	  for() {
 		//    }
 		//}
-		
 		
 		for(int i=1; i<=10; i++) {
 			System.out.println(i + " ");
 			for(int j=1; j<=5; j++) {
 				System.out.println(j +" ");
 			}
-		}
-		
-		
+		}		
 	}
-
 }

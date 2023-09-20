@@ -14,14 +14,12 @@ public class Ex02_For {
 		for(int i = 1; i<=20; i++) {
 			System.out.println(i);
 		}
-		
-		
+				
 		//for문 내부에 조건문을 이용하여 홀수인지 짝수인지를 숫자 뒤에 붙여서 출력해보기.
 		//ex) 1 홀수
 		//	  2 짝수
 		//조건문 if로 한번 풀기
-		//switch로 한번 풀기
-		
+		//switch로 한번 풀기		
 		
 		for(int i=1; i<=20; i++) {
 			if(i%2==1) {
@@ -40,7 +38,6 @@ public class Ex02_For {
 			System.out.println(i+"짝수");
 			break;
 		}
-		}
-		
+		}		
 }
 }

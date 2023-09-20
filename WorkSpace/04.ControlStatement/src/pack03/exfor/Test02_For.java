@@ -19,7 +19,6 @@ public class Test02_For {
 		System.out.println("2 x 9 =18");
 		
 		
-		int x=2;
 		for(int i =1; i<10; i++) {
 			System.out.println("2 x "+ i + " = " + (2*i));
 			}
