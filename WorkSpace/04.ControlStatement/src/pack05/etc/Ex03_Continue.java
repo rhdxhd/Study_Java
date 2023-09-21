@@ -16,7 +16,7 @@ public class Ex03_Continue {
 		
 		int oddSum = 0; //홀수의 누적합
 		for(int i=1; i<=10; i++) {
-			if((i&1)!=1) {
+			if((i&1)!=1) { // &: 비트 마지막 값 1이랑 곱해라
 				continue;
 			}
 			oddSum += i;
