@@ -13,12 +13,16 @@ public class Ex01_If {
 		// if( 조건식 ) {
 		// 위와 같은 형태를 if문 지역이라고 함. : 조건식이 true일때만 해당 지역은 코드 실행이 된다.
 		// }
+		
+		// 만약에 점수가 100점이라면 "장학금을 받음"도 실행이되고,
+		// 전교 1등입니다가 출력되게 해보기.
+		
 		int score = 100;
 		if (score >= 90) { // <= 조건식에 score가 90점 이상이라면을 넣어보자
-			int if_var1 = 100;
+			int if_var1 = 100;  // if 지역안에 변수 선언 또는 초기화해보기. 사용해보기
 			System.out.println("90점 이상이여서 장학금 받음." + if_var1);
 			if (score == 100) {
-				int if_var2 = 100;
+				int if_var2 = 100;  // if - if 지역안에 변수 선언 또는 초기화해보기. 사용해보기
 				System.out.println("전교 1등입니다" + if_var1 + if_var2);
 			}
 			// System.out.println(if_var2) if지역 밖에서 사용 불가 {}
@@ -26,8 +30,7 @@ public class Ex01_If {
 		// System.out.println(if_var1) if지역 밖에서 사용 불가 {}
 		
 
-		// 만약에 점수가 100점이라면 "장학금을 받음"도 실행이되고,
-		// 전교 1등입니다가 출력되게 해보기.
+		
 
 		System.out.println("무조건 실행 됨.");
 
