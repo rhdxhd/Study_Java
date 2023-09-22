@@ -24,11 +24,7 @@ public class Ex01_Break {
 				break;
 			}
 			j++; //안넣으면 무한루프
-		}
-		
-		
-		
-		
+		}	
 		
 		
 	}

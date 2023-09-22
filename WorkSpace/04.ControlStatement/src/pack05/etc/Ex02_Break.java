@@ -21,11 +21,7 @@ public class Ex02_Break {
 			String userId = sc.nextLine();
 			System.out.println("비밀번호를 입력해주세요");
 			String userPw = sc.nextLine();
-			System.out.println("입력 된 정보 "+ userId + userPw);
-			
-		
-			
+			System.out.println("입력 된 정보 "+ userId + userPw);		
 			
 		}
-
 }

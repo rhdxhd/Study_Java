@@ -22,14 +22,7 @@ public class Ex03_Continue {
 			oddSum += i;
 		}
 		System.out.println(oddSum);
-		
-		
-		
-				
-		
-		
-		
-		
+			
 		
 	}
 }

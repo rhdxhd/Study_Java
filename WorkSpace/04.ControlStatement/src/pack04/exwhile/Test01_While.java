@@ -36,8 +36,5 @@ public class Test01_While {
 				i++;
 			}
 		
-		
-		
-		
 	}
 }

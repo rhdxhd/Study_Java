@@ -35,7 +35,6 @@ public class Ex01_While {
 		// for, while 누적합 가능 vs 시그마(등차수열) : 둘다 정답은 가능하나 속도차이가 개선(튜닝)
 		sum = 10 * (10+1) / 2;
 		System.out.println("시그마 :" + sum);
-		
-		
+	
 	}
 }
