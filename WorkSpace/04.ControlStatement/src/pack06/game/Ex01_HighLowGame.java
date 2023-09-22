@@ -17,7 +17,7 @@ public class Ex01_HighLowGame {
 		//Scanner sc = new Scanner(System.in);
 		//String str = sc.nextLine();
 		
-		//기본형 데이터 타입 : byte, short, int, long, float, double, boolean,  . . . 
+		//기본형 데이터 타입 : byte, short, int, long, float, double, char, boolean,  . . . 
 		//String -> int, String, -> double: WrapperClass
 		int intValue = Integer.parseInt("10"); //데이터 타입은 숫자로 변환하는 parse기능이 존재 
 		System.out.println(intValue+10);
@@ -40,16 +40,20 @@ public class Ex01_HighLowGame {
 		 while(true) { // 하루종일 돌아간다.. 무한반복인데 종료하고싶으면 break를 넣어라.
 			 System.out.println("실행중...");
 			 String str = sc.nextLine(); //엔터를 쳐야지 내가 입력한 str을 다음으로 진행하겠다.보여주겠다.
+			 
+			 
 			 //.nextLine(); 이것은 무조건 문자열로 String 받아서 숫자로 바꿔줘야함.
 			 
 			 // System.out.println(str+1);
 			 
 			 int userNum = Integer.parseInt(str); // 입력없이 엔터치면 오류: 입력된 문자열이 없는데 숫자로 바꿔야해서 오류남
-			 System.out.println(userNum+1);
 			 if(userNum == -1) {
 				 System.out.println("프로그램을 종료 합니다.");
 				 break;
 			 }
+			 
+			 System.out.println(userNum+1);
+			 
 			 //사용자가 -1을 입력하면 종료가 되는 프로그램 만들기, 그전에는 계속해서 프로그램이 실행중.
 		 }
 		 
