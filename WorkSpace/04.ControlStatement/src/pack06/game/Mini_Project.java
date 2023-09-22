@@ -22,7 +22,6 @@ public class Mini_Project {
 //		//눈금이 더 높은 팀이 이기는 게임입니다.
 //
 //		+ 기능 추가 자유.
-	
 		
 		
 		Scanner sc = new Scanner(System.in);
