@@ -3,7 +3,7 @@ package pack02.exarray1;
 public class Ex02_Array {
 	public static void main(String[] args) {
 		System.out.println(args);
-		System.out.println(args.length);
+		System.out.println(args.length);  // <-아직 값이 없어서 0으로 나옴
 		
 		
 		// [] <=자료 구조 : 배열, 데이터가 하나 이상이 있다.(==같은 구조로, 즉 같은 타입)
