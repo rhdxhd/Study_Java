@@ -6,7 +6,7 @@ public class Ex02_Arry {
 		//비정방형 2차원 배열 : 1차원 배열의 열의 개수가 각각 다를수있음
 		//[ [0][1]						[ [0]
 		//	[0][1] ] int[2][2];			  [0][1] ]  int[2][] <=비정방형
-		int[][] arr =new int[2][];
+		int[][] arr =new int[3][];
 		int[] elementArr1 = new int[2]; //2(0,1)
 		int[] elementArr2 = new int[3]; //4(0,1,2,3)
 		arr[0] = elementArr1;
@@ -14,7 +14,7 @@ public class Ex02_Arry {
 		arr[2] = new int[4];
 		System.out.println();
 		
-		int num = 1;
+		int num = 0;
 		for(int i=0; i < arr.length; i++) {
 			for( int j=0; j <arr[i].length; j++) {
 				arr[i][j]=++num;

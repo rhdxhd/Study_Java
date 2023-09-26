@@ -6,7 +6,7 @@ public class Test01_Array {
 		//2차원 배열 [
 			// [2단], [3단], [4단]....[9단]
 		//]
-		int[][] arr = new int[8][9]; 
+		int[][] arr = new int[8][9];  //8-1(0~7) , 9-1(0~8)
 		arr[0][0] = 2;
 		arr[0][1] = 4;
 		arr[0][2] = 6;
@@ -18,6 +18,7 @@ public class Test01_Array {
 		arr[0][8] = 18;
 		
 		for(int i=0; i<arr.length; i++) {
+			System.out.println((i+2)+"단");
 			for(int j=0; j<arr[i].length; j++) {
 				arr[i][j] = (i+2) * (j+1);
 				System.out.println((i+2) + "*" + (j+1) + "=" + arr[i][j]);

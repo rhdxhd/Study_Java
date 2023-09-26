@@ -32,11 +32,8 @@ public class Ex01_Array {
 			for(int j=0; j<arr[i].length; j++) {
 				System.out.print(i + "" + j + ":" + arr[i][j] + " ");
 			}
-		}
-		
-		
-			
-		
+			System.out.println();
+		}	
 	}
 
 }
