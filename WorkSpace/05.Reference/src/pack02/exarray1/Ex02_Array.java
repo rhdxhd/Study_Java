@@ -10,7 +10,7 @@ public class Ex02_Array {
 		// 내가 알고있는 대부분의 데이터타입은 배열로 표현이 가능하다.
 		// 데이터타입[] 배열이름 = new 데이터타입[int크기];
 		//배열의 크기를 정확히 모르지만 배열의 이름을 예약해두고싶음 -> 추후 사용 예정 (null)
-//		int[] intArr = null;    <= 기본형 데이터타입 제외 모든 타입은 null로 초기화 해두는게 가능함.
+//		int[] intArr = null;    <= 기본형 데이터타입 제외 모든 타입은 null로 초기화 해두는게 가능함. // index 몇개일지 아직 모름. 방을 몇개만들지 아직모름
 //		if(intArr != null) {
 //		System.out.println(intArr.length);
 //		}
