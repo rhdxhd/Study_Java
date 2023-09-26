@@ -24,7 +24,7 @@ public class Ex03_Array {
 	//첫번째 1차원 배열과 두번째 1차원 배열의 크기만 3으로 바꾸기.
 	arr2[0] = new int[3];
 	arr2[1] = new int[] {0,0,0};
-	System.out.println();
+	System.out.println(arr2.length);
 	
 	
 	

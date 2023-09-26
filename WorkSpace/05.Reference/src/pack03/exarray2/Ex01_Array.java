@@ -35,5 +35,4 @@ public class Ex01_Array {
 			System.out.println();
 		}	
 	}
-
 }
