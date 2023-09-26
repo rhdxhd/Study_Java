@@ -28,11 +28,7 @@ public class Ex02_Stringnull {
 //		if(null != sc) {
 //			sc.nextLine();
 //		}
-		
-		
-		
-		
-		
+			
 	}
 
 }

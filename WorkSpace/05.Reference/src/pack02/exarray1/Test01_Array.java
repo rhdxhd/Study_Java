@@ -8,8 +8,7 @@ public class Test01_Array {
 		//for문을 이용해서 전체 배열에 값을 할당한다.
 		//for문을 이용해서 전체 배열에 값을 출력한다.
 		//for문을 이용해서 전체 배열의 평균값을 출력한다.
-		
-		
+			
 		//데이터타입[] 변수명 = new 데이터타입[크기]
 		
 		int[] intArray = new int[10];  //10칸이 준비됨. int형 변수가 10개 있음. intArray[0]~intArray[9]
@@ -23,8 +22,7 @@ public class Test01_Array {
 		int sum = 0;
 		for(int i=0; i<intArray.length; i++) {
 						//num0 =i;
-			intArray[i] = i;
-			
+			intArray[i] = i;			
 //			intArray[i]++;
 //			++intArray[i];
 						//syso(num0);
@@ -32,8 +30,6 @@ public class Test01_Array {
 			sum += intArray[i];
 			System.out.println(intArray[i]);
 		}
-		System.out.println(sum/intArray.length);	
-		
-		
+		System.out.println(sum/intArray.length);			
 	}
 }

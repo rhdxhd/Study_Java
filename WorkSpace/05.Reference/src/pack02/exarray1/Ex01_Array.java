@@ -47,13 +47,8 @@ public class Ex01_Array {
 		
 		
 		System.out.println("배열의 크기 : " + intArr.length);
-		for(int i=0; i< intArr.length; i++) { // < 와 <= 차이. 왜 하나는 오류나고 하나는 오류 안날까?
+		for(int i=0; i<= intArr.length; i++) { // < 와 <= 차이. 왜 하나는 오류나고 하나는 오류 안날까?
 			System.out.println(intArr[i]);
-		}
-		
-		
-		
-		
-		
+		}		
 	}
 }
