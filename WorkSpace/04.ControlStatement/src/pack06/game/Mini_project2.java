@@ -21,7 +21,7 @@ public class Mini_project2 {
 
 				while (true) {
 					Random u = new Random();
-					int ranNum1 = 0;  // int는 null을 쓸수없으니까 임의의 숫자 아무거나 넣음. 여기서는 0을 넣음. 1도되고 2도되고.. 아무숫자나.
+					int ranNum1 = 0;  // 변수 ranNum1을 쓰기 위해서 일단 선언함. int는 null을 쓸수없으니까 임의의 숫자 아무거나 넣음. 여기서는 0을 넣음. 1도되고 2도되고.. 아무숫자나.
 					if(inputNum1 ==3) {
 						ranNum1 = u.nextInt(100) + 1;
 						System.out.println("난이도 하를 선택하셨습니다.");
@@ -34,18 +34,18 @@ public class Mini_project2 {
 					}
 					
 					
-					for (int i = 10; i >= 1; i--) { // 이부분 위치 생각하기
-						System.out.println("숫자를 입력해주세요."); // 이부분
+					for (int i = 10; i >= 1; i--) {
+						System.out.println("숫자를 입력해주세요.");
 						String inputNum4 = sc.nextLine();
 						int inputNum5 = Integer.parseInt(inputNum4);
-						if (inputNum5 >= ranNum1) {
+						if (inputNum5 >= ranNum1) {  //ranNum1으로 통일 시켜서 변수개수 간소화
 							System.out.println("Low");
 							System.out.println("남은기회 : " + i);
 
-						} else if (inputNum5 <= ranNum1) {
+						} else if (inputNum5 <= ranNum1) { //ranNum1으로 통일 시켜서 변수개수 간소화
 							System.out.println("High");
 							System.out.println("남은기회 : " + i);
-						} else if (inputNum5 == ranNum1) {
+						} else if (inputNum5 == ranNum1) { //ranNum1으로 통일 시켜서 변수개수 간소화
 							System.out.println("정답");
 							break;
 						}
@@ -84,7 +84,7 @@ public class Mini_project2 {
 //							if (inputNum13 >= ranNum2) {
 //								System.out.println("Low");
 //								System.out.println("남은기회 : " + i);
-//							} else if (inputNum13 <= ranNum2) {
+//							} else if (inputNum13 <= ranNum2) {     	// -> 위에서 수정본에서 ranNum1로 통일
 //								System.out.println("High");
 //								System.out.println("남은기회 : " + i);
 //							} else if (inputNum13 == ranNum2) {
@@ -105,7 +105,7 @@ public class Mini_project2 {
 //							if (inputNum15 >= ranNum3) {
 //								System.out.println("Low");
 //								System.out.println("남은기회 : " + i);
-//							} else if (inputNum15 <= ranNum3) {
+//							} else if (inputNum15 <= ranNum3) {			// -> 위에서 수정본에서 ranNum1로 통일
 //								System.out.println("High");
 //								System.out.println("남은 기회 : " + i);
 //							} else if (inputNum15 == ranNum3) {
