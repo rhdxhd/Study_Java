@@ -21,7 +21,7 @@ public class Mini_project2 {
 
 				while (true) {
 					Random u = new Random();
-					int ranNum1 = 0;
+					int ranNum1 = 0;  // int는 null을 쓸수없으니까 임의의 숫자 아무거나 넣음. 여기서는 0을 넣음. 1도되고 2도되고.. 아무숫자나.
 					if(inputNum1 ==3) {
 						ranNum1 = u.nextInt(100) + 1;
 						System.out.println("난이도 하를 선택하셨습니다.");
@@ -51,7 +51,7 @@ public class Mini_project2 {
 						}
 					}
 					
-					
+//				         	↑↑↑↑    아래 3개 단락을 위에 처럼 간략하게 정리 가능					
 //					if (inputNum1 == 3) {
 //						Random u = new Random();
 //						int ranNum1 = u.nextInt(100) + 1;
