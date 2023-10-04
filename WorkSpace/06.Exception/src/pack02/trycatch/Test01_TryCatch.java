@@ -20,7 +20,8 @@ public class Test01_TryCatch {
 		int sum = 0;
 		while(true) {
 			String inputData = scan.nextLine();
-			if(inputData.equals("-1")) {
+			if(inputData.equals("-1")) { // try밖으로 뺀 이유는, -1을 구지 숫자로 바꾸는 과정을 더해서 숫자 -1과 일치하는지 하는게 불필요하니까, try 밖으로 빼서 식을 간략화함
+										 // 숫자 -1일 필요는 없고, 그냥 문자 -1이라도 입력되면 종료하면 되니까
 				break;
 			}
 			try {
@@ -30,8 +31,6 @@ public class Test01_TryCatch {
 			}catch (Exception e) {
 				 System.out.println("숫자 외 값 오류");
 			}
-		}
-		
+		}	
 	}
-
 }

@@ -31,15 +31,6 @@ public class Ex02_TryCatchFinal {
 			// 무조건 실행되어야 하는 코드를 넣어줌.
 			System.out.println("3.가스불 OFF");
 			System.out.println("4.종료");
-		}
-		
-		
-		
+		}	
 	}
 }
-
-
-
-
-
-

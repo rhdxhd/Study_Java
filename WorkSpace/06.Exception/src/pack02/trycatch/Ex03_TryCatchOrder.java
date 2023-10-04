@@ -8,10 +8,16 @@ public class Ex03_TryCatchOrder {
 		try {
 			//try 내부에서는 코드가 위에서 아래로 순차적으로 실행 (정상의 경우)
 			//예외 발생 시 밑의 코드는 실행x -> catch
+			
+			
 			Double.parseDouble("a");
+			
 			System.out.println(0/0);
+			
+			
 			String str = null;
-			System.out.println(str.length());
+			System.out.println(str.length());			
+			
 			
 		} catch (NumberFormatException e) {	
 			System.out.println("숫자가 아닌값!");

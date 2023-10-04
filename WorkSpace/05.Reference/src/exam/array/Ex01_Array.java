@@ -10,18 +10,16 @@ public class Ex01_Array {
 	public static void main(String[] args) {
 		int[] numbers = { 1, 2, 3, 4, 6, 7, 8, 0 };
 		// 1차원배열의 모든 요소에 접근 for. : 비어있는 숫자를 어떻게 하면 내가 정확하게 알 수 있는지?
-		
-		
-		// 두번째 방법 = >  int[] numbers = { 1, 2, 3, 4, 6, 7, 8, 0 }; // 비어있는 숫자찾아 더해라
-		//				int endPoint = 90/2 ;
-		// 			    for(int i=0; i<numbers.length; i++) {
-		//					endPoint -= numbers[i];
-		//				} 
-		//				System.out.println(endPoint);
-		
-		
-		
+	
 		// 첫번째 방법 ↓
+		// int[] numbers = { 1, 2, 3, 4, 6, 7, 8, 0 }; // 비어있는 숫자찾아 더해라
+		int endPoint = 90 / 2;
+		for (int i = 0; i < numbers.length; i++) {
+			endPoint -= numbers[i];
+		}
+		System.out.println(endPoint);
+
+		// 두번째 방법 ↓
 		int[] tempArray = new int[10];
 		for (int i = 0; i < tempArray.length; i++) { // [1,2,3,4,6,7,8,0]
 			// System.out.println(i);
@@ -33,11 +31,11 @@ public class Ex01_Array {
 		}
 		System.out.println(Arrays.toString(tempArray));
 		int sum = 0;
-		for(int i=0; i<tempArray.length; i++) {
-			if(tempArray[i]==0) {
-			sum+=i;
-			System.out.print("비어있는 숫자 :" + i + " " + sum + " ");
+		for (int i = 0; i < tempArray.length; i++) {
+			if (tempArray[i] == 0) {
+				sum += i;
+				System.out.print("비어있는 숫자 :" + i + " " + sum + " ");
+			}
 		}
 	}
-}
 }

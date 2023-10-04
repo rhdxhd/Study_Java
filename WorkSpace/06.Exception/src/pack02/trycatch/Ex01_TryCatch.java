@@ -13,11 +13,12 @@ public class Ex01_TryCatch {
 		//}
 		
 		try {
-			Double.parseDouble(str); // "10" -> 10.0
+			Double.parseDouble(str); // 만약, String str = "10";이면    "10" -> 10.0
 		}catch (Exception e) {
 			System.out.println("오류 발생");
 			System.out.println(e.getMessage()); // 예외 메세지 호출. 예외 메시지만 출력하고자 할 때 사용할 수 있음.
-			e.printStackTrace(); // <=원래 나오던 오류코드를 출력함. 단, 앞에서랑은 다르게 프로그램은 중단되지 않음.
+			e.printStackTrace(); // <= catch를 써서 오류 내용이 콘솔창에 안뜨는데, 
+								 //    원래 나오던 오류코드를 보고싶음. 출력해봄. 단, 앞에서랑은 다르게 프로그램은 중단되지 않음.
 		}
 		System.out.println(str);
 		
