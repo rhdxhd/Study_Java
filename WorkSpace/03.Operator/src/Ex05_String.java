@@ -7,7 +7,7 @@ public class Ex05_String {
 	System.err.println(str1);
 	System.err.println(str2);
 	
-	// 연산 순서는 현실과 같음. 연산은 왼쪽엥서부터 오른쪽으로 한다.
+	// 연산 순서는 현실과 같음. 연산은 왼쪽에서부터 오른쪽으로 한다.
 	
 	
 	

@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	
 	
 	// ! <= NOT
-	// 어떤 true, false(bool)앞에 붙이면 해당 결과를 반전시킴.
+	// 어떤 true, false앞에 !붙이면 해당 결과를 반전시킴.
 	// (숫자에서는 -를 붙였던 것과 비슷한 개념임)
 	
 	System.out.println(!booleanV1);
