@@ -19,7 +19,7 @@ public class Ex02_TryCatchFinal {
 		try {
 			System.out.println("1.물조절");
 			System.out.println("2.가스불 ON");
-			System.out.println(0/0);
+			System.out.println(0/0);  //이걸 넣으면 오류 발생
 //			System.out.println("3.가스불 OFF");   중복된 부분 finally에 한번만 적음
 //			System.out.println("4.종료(요리 끝 식사)");
 		} catch (Exception e) {
