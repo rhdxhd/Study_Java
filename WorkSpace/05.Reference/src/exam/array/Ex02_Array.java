@@ -20,7 +20,7 @@ public class Ex02_Array {
 				if(array[i] > array[idx]) { //   > 오름차순,  < 내림차순
 					int temp = array[i];
 					array[i] = array[idx];
-					array[idx] = temp;
+					array[idx] = temp; 
 				}
 			}
 			System.out.println(Arrays.toString(array));
