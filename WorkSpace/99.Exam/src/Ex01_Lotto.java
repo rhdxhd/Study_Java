@@ -30,11 +30,15 @@ public class Ex01_Lotto {
 			
 			}
 			
-			for(int j=0; j<i; j++) {
-			comNums[i] = random.nextInt(45)+1;
-				if(comNums[i]==comNums[j]) {
-				i--;
-				break;
+			while(true) {
+				comNums[i]=Integer.parseInt(random);
+				
+			}
+			
+			
+
+			
+			
 					
 			}
 			
@@ -44,9 +48,8 @@ public class Ex01_Lotto {
 		
 		
 	} 
-		}
 
-		System.out.println(Arrays.toString(userNums));
-		System.out.println(Arrays.toString(comNums));	
-	}} 
 
+System.out.println(Arrays.toString(userNums));
+System.out.println(Arrays.toString(comNums));
+}
