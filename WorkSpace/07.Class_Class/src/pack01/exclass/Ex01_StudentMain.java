@@ -15,7 +15,7 @@ public class Ex01_StudentMain {
 		if(es==kym) {
 			System.out.println("참조가 같음" + es);
 		}else {
-			System.out.println("참조가 다름" + kym + es + arr);
+			System.out.println("참조가 다름" + " 여기 " + kym + " 여기 " + es + " 여기 " + arr);
 		}
 		
 		

@@ -34,14 +34,11 @@ public class Ex01_Lotto {
 				for (int j = 0; j < i; j++) {
 					if (comNums[i] == comNums[j]) {
 						i--;
-						break;
+						break;C
 					}
-					
 				}
-				
 			}
 
-		
 		// 입력한로또:6 , 컴퓨터랜덤:6
 		System.out.println(Arrays.toString(userNums));
 		System.out.println(Arrays.toString(comNums));// <=당첨번호(Random) 중복된숫자 x , 예외

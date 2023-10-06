@@ -16,7 +16,7 @@ public class CarMain {
 		
 		cark.company = "기아";
 		
-		System.out.println(carh.company + carh.type + carh.maxSpeed + carh.color);
+		System.out.println(carh.company + "/" + carh.type + "/" + carh.maxSpeed + "/" + carh.color);
 		System.out.println(cark.company);
 	}
 }
