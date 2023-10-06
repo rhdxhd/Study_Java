@@ -16,6 +16,4 @@ public class Test01_Car {
 	
 	//마우스 오른쪽 클릭 -> 소스 -> Using Field->자동완성
 	
-	
-	
 }
