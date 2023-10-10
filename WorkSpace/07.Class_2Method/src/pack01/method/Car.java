@@ -44,7 +44,7 @@ public class Car {
 	// 출력하는 메소드를 만들어보세요.ex)5->"출력...."x5 , 10->...
 	public void kymMethod4(int count) {
 		for (int i = 1; i <= count; i++) {
-			System.out.print("출력 ");
+			System.out.println("출력 ");
 		}
 	}
 
