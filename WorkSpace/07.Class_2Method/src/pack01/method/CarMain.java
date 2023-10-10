@@ -11,8 +11,8 @@ public class CarMain {
 //		}
 //메소드의 파라메터
 //정의 = 호출 : 변수 초기화 식
-		car.kymMethod1("김영문");
-		car.kymMethod2("김영문", "휴식");
+		car.kymMethod1("홍길동");
+		car.kymMethod2("홍길동", "휴식");
 		car.kymMethod3("현대차", 0);
 		car.kymMethod4(12);
 		int result = car.rtnMethod1();
