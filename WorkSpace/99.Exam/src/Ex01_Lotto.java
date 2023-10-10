@@ -34,7 +34,7 @@ public class Ex01_Lotto {
 				for (int j = 0; j < i; j++) {
 					if (comNums[i] == comNums[j]) {
 						i--;
-						break;C
+						break;
 					}
 				}
 			}
