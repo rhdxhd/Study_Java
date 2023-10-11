@@ -10,8 +10,26 @@ public class ProductDTO {
 	//alt + shift +s 또는
 	//마우스 오른쪽 클릭 -> source -> getter &setter
 	//                         -> 생성자 메소드
-	
-	
+//	public int getNum() {
+//		return num;
+//	}
+//	public void setNum(int num) {
+//		this.num = num;
+//	}
+//	public int getPrice() {
+//		return price;
+//	}
+//	public void setPrice(int price) {
+//		this.price = price;
+//	}
+//	public String getName() {
+//		return name;
+//	}
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+	// ↑ 자동으로 생성한 것
+
 	public int getNum() {
 		return num;
 	}
