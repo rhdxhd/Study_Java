@@ -3,6 +3,14 @@ package pack02.product;
 public class ProductMain {
 	public static void main(String[] args) {
 		//ProudctDTO를 하나 객체로 만들고 필드(변수,?) 전체에 값 할당 후 출력
+//		ProductDTO dto = new ProductDTO();
+//		dto.num =1;
+//		dto.name = "~~스카프";
+//		dto.price = 6900;
+//		System.out.println(dto.num + " . " + dto.name + " : " + dto.price + "원");
+		
+		
+		
 		//Array(배열)->데이터타입[] 해당하는 타입을 담고 있는 배열->크기
 		ProductDTO[] dtos = new ProductDTO[5];
 			

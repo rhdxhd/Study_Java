@@ -10,6 +10,7 @@ public class ProductDTO {
 	//alt + shift +s 또는
 	//마우스 오른쪽 클릭 -> source -> getter &setter
 	//                         -> 생성자 메소드
+	
 //	public int getNum() {
 //		return num;
 //	}
@@ -60,3 +61,13 @@ public class ProductDTO {
 	//get<- 외부로부터 접근이 안되는 필드의 변수값을 return
 	//set<- 필드의 변수값을 바꾸기 위한(set) 메소드
 }
+
+
+
+
+//public void setPrice(int price) {
+//	if(price<0) {
+//		this.name = "금액 입력 오류";
+//	}else {
+//		this.price = price;
+//	}
