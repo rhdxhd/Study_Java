@@ -28,7 +28,7 @@ public class ProductDTO {
 //	public void setName(String name) {
 //		this.name = name;
 //	}
-	// ↑ 자동으로 생성한 것
+// ↑↑↑ 자동으로 생성한 것
 
 	public int getNum() {
 		return num;
