@@ -33,6 +33,10 @@ public class Test01_For {
 		}
 		System.out.println(sum);
 
+		
+		
+		
+		
 		int sum1 = 0, oddSum = 0, evenSum = 0; // 왜 밖에다가 변수 만들었는가?
 		for (int i = 0; i <= 9; i++) {
 			if (i % 2 == 1) {

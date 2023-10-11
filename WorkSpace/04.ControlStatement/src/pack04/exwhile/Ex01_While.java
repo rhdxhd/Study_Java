@@ -10,11 +10,13 @@ public class Ex01_While {
 		// 내가 데이터를 읽은 후 그 다음 데이터가 있는지의 판단.(Buffer)
 		// for(int i = 0 ; i<10 ; i++) {}
 		// 몇회를 반복해야하는경우 : 변수, 조건식, '증감식'
+
 		int i = 0; // 변수를 무조건 밖에다가 만들어야한다.
 		while (i < 10) {
 			System.out.println("while1반복");
 			i++;
 		}
+
 		i = 0; // <= 제어 변수가 제어문 외부에 있을때 단점. 까먹고 안치면 아래가 실행이 안됨.
 		while (i < 10) {
 			System.out.println("while2반복");
@@ -30,11 +32,11 @@ public class Ex01_While {
 			i++;
 		}
 		System.out.println(sum);
-		//시그마 (등차수열, 등비수열)
+		// 시그마 (등차수열, 등비수열)
 		// 1~N까지의 누적합. N(N+1)/2 : 1~10만까지의 누적합.
 		// for, while 누적합 가능 vs 시그마(등차수열) : 둘다 정답은 가능하나 속도차이가 개선(튜닝)
-		sum = 10 * (10+1) / 2;
+		sum = 10 * (10 + 1) / 2;
 		System.out.println("시그마 :" + sum);
-	
+
 	}
 }
