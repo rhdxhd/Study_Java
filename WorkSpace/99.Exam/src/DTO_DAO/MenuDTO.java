@@ -7,7 +7,9 @@ public class MenuDTO {
 	private String name;
 	private int money, refund, num, price;
 	
-	
+	String[] menu = {"1" , "아메리카노" , "2000"};
+	String[] menu1 = {"2" , "아메리카노" , "2000"};
+	String[] menu2 = {"3" , "아메리카노" , "2000"};
 	public MenuDTO(int num, String name, int price) {
 		this.name = name;
 		this.num = num;
