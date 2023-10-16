@@ -5,7 +5,6 @@ public class ProductDTO {
 	private String name;
 	
 	
-	
 	public int getPrice() {
 		return price;
 	}
@@ -45,7 +44,4 @@ public class ProductDTO {
 		this.qty = qty;
 		this.name = name;
 	}
-	
-	
-	
 }

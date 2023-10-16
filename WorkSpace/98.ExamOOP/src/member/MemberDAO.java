@@ -82,8 +82,7 @@ public class MemberDAO {
 			}else {
 				System.out.println("잘못입력");
 			}
-		}
-		
+		}	
 	}
 
 	public void startUserLogin() {
@@ -104,8 +103,7 @@ public class MemberDAO {
 				break;
 			}else {
 				System.out.println("다시 선택");
-			}
-			
+			}		
 		}
 	}
 }

@@ -10,7 +10,7 @@ public class ProgramMain {
 		Common common = new Common();//스캐너 초기화
 		System.out.println("참조 번지 : " + common);
 		MemberDAO dao = new MemberDAO(common);
-		common.items = new ProductDAO(common).initItems();
+		common.items = new ProductDAO(common).initItems();  //변수에 안담아서 일회성
 		dao.startUserLogin();
 		common.endProgram();//스캐너 종료
 	}

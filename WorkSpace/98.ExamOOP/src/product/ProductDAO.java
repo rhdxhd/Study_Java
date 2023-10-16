@@ -37,8 +37,7 @@ public class ProductDAO {
 			common.items[i].setQty(common.items[i].getQty()-1);
 		}else {
 			System.out.println("금액부족!!");
-		}
-		
+		}		
 	}
 
 	public void displayItems() {
