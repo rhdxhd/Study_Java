@@ -1,5 +1,8 @@
 package exam.changetp;
 
-public class B {
-
+//A의 자식클래스 
+public class B extends A{
+	public void bMethod() {
+		
+	}
 }

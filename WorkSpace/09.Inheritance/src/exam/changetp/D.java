@@ -1,5 +1,5 @@
 package exam.changetp;
 
-public class D {
+public class D extends B{
 
 }

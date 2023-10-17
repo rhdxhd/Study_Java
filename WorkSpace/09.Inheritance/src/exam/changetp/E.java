@@ -1,5 +1,7 @@
 package exam.changetp;
 
-public class E {
-
+public class E extends C{
+	public void eMethod() {
+		
+	}
 }
