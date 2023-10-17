@@ -25,13 +25,7 @@ public class Ex03_Array {
 	arr2[0] = new int[3];
 	arr2[1] = new int[] {0,0,0};
 	System.out.println(arr2.length);
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	}
 }
