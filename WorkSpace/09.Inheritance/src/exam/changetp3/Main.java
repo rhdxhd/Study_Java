@@ -22,9 +22,7 @@ public class Main {
 		}else {
 			System.out.println("FALSE");
 		}
-		
 	
-		
 //		parent = child;
 //		parent.method1();
 //		parent.method2();
