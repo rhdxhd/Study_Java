@@ -67,6 +67,14 @@ public class Nested {
 
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void nesIneer3() {
 		class NesInner3 {
 			String iField;
@@ -75,11 +83,11 @@ public class Nested {
 				System.out.println("메소드");
 			}
 		}
-
+//nesIneer3은 여기다가 만들면됨.
 		NesInner3 nes = new NesInner3();
 		nes.iField = "lv";
-		nes.iMethod();
-
+		nes.iMethod();  // -> 불러와서 위에 iMethod()실행됨. 그 안에 syso출력됨.
+		System.out.println(nes.iField);
 	}
 
 	

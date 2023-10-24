@@ -35,9 +35,14 @@ public class NestedMain {
 	
 	
 	System.out.println(NesInner2.sField2);  // = System.out.println(Nested.NesInner2.sField2);
-	NesInner2 nes2 = new Nested.NesInner2();
+	NesInner2 nes2 = new Nested.NesInner2();  
 	nes2.iField = "ABC";
 	nes2.iMethod();
 	
+	
+	
+	nas.nesIneer3();
+	
+		
 	}
 }

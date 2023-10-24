@@ -18,6 +18,7 @@ public class AbcNested {
 	public static void main(String[] args) {
 		Test_Sub sub = new AbcNested.Abc1().new Test().new Test_Sub();
 		sub.method();
+		System.out.println(sub.test);
 	}	
 	
 }
