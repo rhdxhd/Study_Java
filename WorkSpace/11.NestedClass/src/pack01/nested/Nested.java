@@ -9,6 +9,37 @@ public class Nested {
 	// 접근방법: 클래스. (점찍으면 다 나옴)
 	// 구분하는 방법 :
 
+	
+	
+	public int field; // -> 필드라고함. (깊이 들어가자면 객체도 될 수 있음) , 필드: 전역변수. 변수 선언해놓은.
+	// 지역변수는 필드가 아님. 지역변수는 메소드의 멤버임.
+
+	public void method() {
+		System.out.println("메소드1" + field2);
+	}
+
+	
+	
+	// Nested nas = new Nested(); ->만약에 method2안에 말고 전역으로 빼면 오류 나는 이유는
+	// static은 이미 메모리에 올라가 있기때문에, 위에서 아래로 가는 순서 상관없이 이미 그 이전에 메모리에 올라가 있는것임.
+	// 그래서 static위에 Nested nas = new Nested();이걸쓰더라도 이미 static이 올라가 있는 상태라 오류가 남
+
+	public static int field2; // -> 다른클래스에서 같은 이름의 스태틱 변수(field2) 만들 수 있음. 대신 앞에 클래스 이름이 다름.
+
+	public static void method2() {
+		Nested nas = new Nested();
+		System.out.println("메소드2" + nas.field);
+	}
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
 	// 인스턴스 멤버 : 인스턴스 클래스
 	public class NesInner {
 		
@@ -65,26 +96,6 @@ public class Nested {
 	
 	
 	
-	public int field; // -> 필드라고함. (깊이 들어가자면 객체도 될 수 있음) , 필드: 전역변수. 변수 선언해놓은.
-	// 지역변수는 필드가 아님. 지역변수는 메소드의 멤버임.
 
-	public void method() {
-		System.out.println("메소드1" + field2);
-	}
-
-	
-	
-	
-	
-	// Nested nas = new Nested(); ->만약에 method2안에 말고 전역으로 빼면 오류 나는 이유는
-	// static은 이미 메모리에 올라가 있기때문에, 위에서 아래로 가는 순서 상관없이 이미 그 이전에 메모리에 올라가 있는것임.
-	// 그래서 static위에 Nested nas = new Nested();이걸쓰더라도 이미 static이 올라가 있는 상태라 오류가 남
-
-	public static int field2; // -> 다른클래스에서 같은 이름의 스태틱 변수(field2) 만들 수 있음. 대신 앞에 클래스 이름이 다름.
-
-	public static void method2() {
-		Nested nas = new Nested();
-		System.out.println("메소드2" + nas.field);
-	}
 
 }

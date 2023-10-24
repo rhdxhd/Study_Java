@@ -12,10 +12,14 @@ public class NestedMain {
 
 	
 	
+	
 	//인스턴스 멤버 접근 방법
 	Nested nas = new Nested(); // -> 1.인스턴스멤버 호출가능 하게 함 // 인스턴스화한 변수 nas는 객체임
 	nas.field = 20;
 	nas.method();
+	
+	
+	
 	
 	
 	
@@ -25,6 +29,7 @@ public class NestedMain {
 	
 	nes.iField = "ABC";
 	nes.iMethod();
+	
 	
 	
 	
