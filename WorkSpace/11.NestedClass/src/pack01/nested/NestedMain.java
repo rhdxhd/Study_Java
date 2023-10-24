@@ -5,14 +5,18 @@ import pack01.nested.Nested.NesInner2;
 
 public class NestedMain {
 	public static void main(String[] args) {
+		
 	//static은 항상 메모리에 먼저 올라가는 성질이 있음 -> 바로 사용
 	Nested.field2 = 10;  // 스태틱 클래스이름.
 	Nested.method2();
+
+	
 	
 	//인스턴스 멤버 접근 방법
 	Nested nas = new Nested(); // -> 1.인스턴스멤버 호출가능 하게 함 // 인스턴스화한 변수 nas는 객체임
 	nas.field = 20;
 	nas.method();
+	
 	
 	
 	
@@ -23,19 +27,12 @@ public class NestedMain {
 	nes.iMethod();
 	
 	
+	
+	
 	System.out.println(NesInner2.sField2);  // = System.out.println(Nested.NesInner2.sField2);
 	NesInner2 nes2 = new Nested.NesInner2();
 	nes2.iField = "ABC";
 	nes2.iMethod();
-	
-	
-
-	
-	
-	
-	
-	
-	
 	
 	}
 }

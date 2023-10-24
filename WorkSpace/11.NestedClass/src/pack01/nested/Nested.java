@@ -11,10 +11,11 @@ public class Nested {
 
 	// 인스턴스 멤버 : 인스턴스 클래스
 	public class NesInner {
+		
 		public NesInner() {
 		}
 
-		// public static sField1; // 오류 왜날까 ? 스태틱 있으면 NesInner 인스턴스 하면 오류남.
+		// public static sField1;  //-> 오류 왜날까 ?
 		String iField;
 
 		public void iMethod() {
@@ -22,8 +23,7 @@ public class Nested {
 		}
 	}
 
-	
-	
+		
 	// 스태틱 멤버 : 스태틱 클래스
 	public static class NesInner2 {
 		static String sField2 = "ON";
