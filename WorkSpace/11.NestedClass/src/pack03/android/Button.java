@@ -2,26 +2,26 @@ package pack03.android;
 
 public class Button {
 
-	public OnClickListner listner;//null <= 외부에서 어떤 이벤트를 작성 할지 결정
+	public OnClickListener listener;//null <= 외부에서 어떤 이벤트를 작성 할지 결정
 	
 // 자주 사용 안함
-//	public OnClickListner getListner() {   //오른쪽버튼 자동완성으로 만듬
-//		return listner;
+//	public OnClickListener getListener() {   //오른쪽버튼 자동완성으로 만듬
+//		return listener;
 //	}
 	
 	//os가 해줌
 	void click() {
-		listner.onClick();
+		listener.onClick();
 	}
 
-	public void setListner(OnClickListner listner) {
-		this.listner = listner;
+	public void setListener(OnClickListener listener) {
+		this.listener = listener;
 		//실제로 ↓안드로이드가 감지해서 실행함.
 		this.click();
 	}
 
-	static interface OnClickListner{
+	static interface OnClickListener{
 		void onClick();
-		//OnClickListner라는 인터페이스 형태를 사용하기 위해서 onClick이라는 메소드는 반드시 있어야함.
+		//OnClickListener라는 인터페이스 형태를 사용하기 위해서 onClick이라는 메소드는 반드시 있어야함.
 	}
 }
