@@ -17,5 +17,4 @@ public class Ex03_BeepTask implements Runnable{
 			}
 		}
 	}
-
 }

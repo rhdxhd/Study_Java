@@ -26,5 +26,4 @@ public class Ex02_Thread {
 		System.out.println("여기는 메인 메소드 스레드 코드");
 		
 	}
-
 }
