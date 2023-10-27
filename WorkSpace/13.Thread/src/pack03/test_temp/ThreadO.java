@@ -1,4 +1,4 @@
-package pack03.test;
+package pack03.test_temp;
 
 
 public class ThreadO implements Runnable {
