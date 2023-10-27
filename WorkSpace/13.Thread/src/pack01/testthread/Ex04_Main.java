@@ -23,11 +23,18 @@ public class Ex04_Main {
 		
 		// 동기 : 프로그램이 위에서 아래로 흐르며 어떤 작업을 할 때 밑의 코드가 실행 하지 않고 멈춤
 		// 비동기 : 메인 프로세스랑 상관없이 따로 작업 ↑ (병렬)
-		t1.start();   //t1.run();
-		t2.start();   //t2.run();
-		t3.start();   //t3.run();
-		t4.start();   //t4.run();
-		t5.start();   //t5.run();
+//		t1.start();   
+//		t2.start();   
+//		t3.start();   
+//		t4.start();   
+//		t5.start();   
+		
+		t1.run();
+		t2.run();
+		t3.run();
+		t4.run();
+		t5.run();
+		
 		System.out.println("메인 쓰레드");
 	}
 }

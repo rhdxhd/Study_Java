@@ -6,6 +6,8 @@ public class Ex03_BeepMain {
 		//Runnable run = new Ex03_BeepTask();
 		Thread thread = new Thread(e3);
 		thread.start();
+		//e3.run();
+		
 		
 		for (int i = 0; i < 5; i++) {
 			System.out.println("띵 메인");

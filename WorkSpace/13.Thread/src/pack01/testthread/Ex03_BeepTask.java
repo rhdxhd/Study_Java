@@ -7,7 +7,7 @@ public class Ex03_BeepTask implements Runnable{
 	@Override
 	public void run() {
 		for (int i = 0; i < 5; i++) {
-			System.out.println("띵");
+			System.out.println("띵");   // ->  Thread
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
@@ -17,4 +17,5 @@ public class Ex03_BeepTask implements Runnable{
 			}
 		}
 	}
+
 }
