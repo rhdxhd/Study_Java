@@ -41,8 +41,5 @@ public class DepartmentDTO {
 
 	public void setDepartmentName(String departmentName) {
 		this.departmentName = departmentName;
-	}
-	
-	
-	
+	}	
 }

@@ -27,10 +27,7 @@ public class Ex02_FileWriter {
 				writer.write(i + " * " + j + " = " + (i*j));
 			}
 			writer.write("\r\n");
-		}
-	
-		
-		writer.flush();
-		
+		}	
+		writer.flush();	
 	}
 }
