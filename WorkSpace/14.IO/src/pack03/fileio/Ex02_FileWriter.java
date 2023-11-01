@@ -16,6 +16,7 @@ public class Ex02_FileWriter {
 		
 		File directory = new File("Ex02_FileWriter\\file2.txt");
 		if(!directory.isFile()) {
+			directory.mkdir();		
 			directory.createNewFile();
 		}
 		
