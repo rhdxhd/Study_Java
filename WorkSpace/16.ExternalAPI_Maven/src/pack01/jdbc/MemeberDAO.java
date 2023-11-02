@@ -35,16 +35,16 @@ public class MemeberDAO {
 				ResultSet rs = ps.executeQuery();
 				while (rs.next()) {
 					MemberDTO dto = new MemberDTO(rs.getString("id"), rs.getString("pw"));
-					list.add(dto)
+					list.add(dto);
 					//System.out.println(rs.getString("id") + " " + rs.getString("pw"));
 				}
-
 				// System.out.println(rs.getRow());
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
+		return list;
 	}
 
 	public void insertMember(MemberDTO dto) {
