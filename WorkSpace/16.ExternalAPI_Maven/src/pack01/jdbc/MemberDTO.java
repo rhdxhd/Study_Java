@@ -3,11 +3,9 @@ package pack01.jdbc;
 public class MemberDTO {
 	//ctrl + shift + y : 소문자
 	//ctrl + shift + x : 대문자
-	//
-	private String id, pw;
+	private String id , pw;
 
 	public MemberDTO(String id, String pw) {
-		super();
 		this.id = id;
 		this.pw = pw;
 	}
@@ -29,6 +27,7 @@ public class MemberDTO {
 	}
 	
 	
+
 	
-	
+
 }
