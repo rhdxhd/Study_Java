@@ -33,7 +33,7 @@ public class DAO {
 	ArrayList<ItemDTO> itemDtos;
 	ArrayList<OrderListDTO> orderListDtos;
 	Connection conn;
-	// 임시
+	
 
 	private final String DB_URL = "jdbc:oracle:thin:@118.40.91.135:1521:xe";
 	private final String DB_USER = "BTEAM";
@@ -935,11 +935,11 @@ public class DAO {
 					break;
 				}
 				URIBuilder builder = new URIBuilder("https://business.juso.go.kr/addrlink/addrLinkApiJsonp.do");
-				builder.addParameter("curruntPage", "1");
-				builder.addParameter("countPerPage", "30");
-				builder.addParameter("keyword", search);
-				builder.addParameter("confmKey", "devU01TX0FVVEgyMDIzMTEwNzE2MTE1MTExNDI0OTI=");
-				builder.addParameter("resultType", "json");
+				builder.addParameter("curruntPage", "1"); // 1페이부터 본다
+				builder.addParameter("countPerPage", "30"); // 한페이지에 30개씩 본다
+				builder.addParameter("keyword", search); // 검색어 입력
+				builder.addParameter("confmKey", "devU01TX0FVVEgyMDIzMTEwNzE2MTE1MTExNDI0OTI="); // 사이트에서 신청하면 주는 key
+				builder.addParameter("resultType", "json"); //제이슨으로 받겠다.. html로 받는 것도 있음.
 				HttpGet request = new HttpGet(builder.build());
 
 				HttpResponse response = client.execute(request);
