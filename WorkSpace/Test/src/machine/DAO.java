@@ -526,7 +526,7 @@ public class DAO {
 			case "1":
 				String temp = "select idx, name, price, type, info from itemdto";
 				temp += itemSortName;
-				temp += itemSortStr[1];
+				temp += itemSortStr[itemSort];
 				try {
 					conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 					PreparedStatement ps = conn.prepareStatement(temp);
@@ -557,7 +557,7 @@ public class DAO {
 			case "2":
 				temp = "select idx, name, price, type, info from itemdto";
 				temp += itemSortType;
-				temp += itemSortStr[3];
+				temp += itemSortStr[itemSort];
 				try {
 					conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 					PreparedStatement ps = conn.prepareStatement(temp);
