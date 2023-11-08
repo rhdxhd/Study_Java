@@ -2,6 +2,7 @@ package machine;
 
 public class OrderListDTO {
 	private int index, item, quantity, price;
+	
 	public int getPrice() {
 		return price;
 	}

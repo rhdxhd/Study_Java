@@ -27,7 +27,7 @@ public class DAO {
 	Scanner sc;
 	int itemSort;
 	String id;
-	String[] searchLog;// [0] 검색어 [1] 검색 방법 1 = 이름 2= 종류
+	String[] searchLog;
 	CustomerDTO cDto;
 	ItemDTO iDto;
 	ArrayList<ItemDTO> itemDtos;

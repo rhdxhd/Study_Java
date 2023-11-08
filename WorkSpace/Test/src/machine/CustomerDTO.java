@@ -4,6 +4,7 @@ public class CustomerDTO {
 	private String id, pw, address, email, phone;
 	private int point, grade; 
 	private boolean manager, resign;
+	
 	public boolean isResign() {
 		return resign;
 	}
@@ -58,6 +59,4 @@ public class CustomerDTO {
 	public void setGrade(int grade) {
 		this.grade = grade;
 	}
-	
-
 }
