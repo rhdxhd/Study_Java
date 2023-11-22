@@ -22,7 +22,6 @@ public class Ex01_Connection {
 			//try {
 			//	Class.forName("oracle.jdbc.driver.OracleDriver");
 			//} catch (ClassNotFoundException e) {
-			//	// TODO Auto-generated catch block
 			//	e.printStackTrace();
 			//}
 			
